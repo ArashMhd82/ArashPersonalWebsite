@@ -1,0 +1,193 @@
+*{
+    margin : 0px ;
+    padding : 0px ;
+    letter-spacing: 2px;
+}
+html{
+    margin : 0px ;
+    padding : 0px ;
+    color:white;
+}
+body{
+    background-color: rgb(0, 22, 36);
+}
+header{
+    background-color: rgb(3,46,73) ;
+    display: flex ;
+    align-items: center ;
+    height: 12vh;
+}
+.Arash_img{
+    padding : 1% ;
+    margin-left : 1% ;
+    width : 80px ;
+    height: 80px ;
+    border-radius: 220px ;
+}
+header h1{
+    border-left : 4px solid rgb(255, 255, 255) ;
+    padding-left : 1% ;
+    color : whitesmoke ;
+    font-family: Roboto , Arial ;
+    font-weight: 500;
+}
+header h1:hover{
+    color:rgb(220, 220, 220);
+}
+nav{
+    padding-right : 7% ;
+    text-align: right;
+    width : 100% ;
+}
+li{
+    display: inline-block;
+    padding-left: 5%;
+}
+a{
+    font-size: 25px;
+    color:white;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+}
+a:hover{
+    border-bottom: 1px rgb(126, 126, 126) solid;
+    color:rgb(192, 192, 192)
+}
+.main{
+    width:100%;
+    height: 88vh;
+}
+.img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    transition: 0.3s;
+    
+}
+.container{
+    font-family: sans-serif;
+    color:white;
+    width:50%;
+    height: 88%;
+    background:rgba(68, 86, 86, 0.3);
+    backdrop-filter: blur(10px);
+    position:absolute;
+    top:12vh;
+    left:0;
+}
+.text{
+    margin:15%;
+    padding:5%;
+    margin-top:30vh;
+    border:3px white solid ;
+    border-radius: 15px;
+}
+.text h1{
+    letter-spacing: 5px;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.text p{
+    line-height: 18px;
+}
+.sum{
+    margin:2%;
+    padding:2%;
+    display: flex;
+    background-color: rgb(39, 132, 163);
+    border:2px white solid;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.sum img{
+    margin-right:5%;
+    margin-left:5%;
+}
+main{
+    background-color: rgb(0, 22, 36);
+    color:white;
+    font-family: sans-serif;
+    margin: 2%;
+    padding:3%;
+    border: 3px white solid;
+    border-radius: 20px;
+    padding-top:10vh;
+}
+main div{
+    margin-bottom: 20vh;
+}
+main h1{
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 3px;
+    padding-bottom:30px;
+    border-bottom: 2px white solid;
+}
+main p{
+    margin-top:10vh;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-left:0.5%;
+    border-left: 3px white solid;
+    padding-left: 0.5%;
+    height: fit-content;
+
+}
+.div1 img{
+    margin-top: 10vh;
+    border:2px rgb(39, 132, 163) solid;
+}
+.div1{
+    display: flex;
+}
+.div2 p{
+    border-left:none;
+}
+table {
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: arial, sans-serif;
+    background-color: rgb(227, 224, 220);
+    border-collapse: collapse;
+    color:rgb(0, 22, 36);
+} 
+td, th {
+    text-align: center;
+    border: 1px solid #dddddd;
+    padding: 20px;
+}
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+footer{
+    margin: 2%;
+    border: 3px white solid;
+    border-radius: 20px;
+    height: 95vh;
+    background-image: url(../image/796839.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:3%;
+}
+footer .blur{
+    padding:2%;
+    width : 80%;
+    height: 90%;
+    left: 0px;
+    border-radius: 20px;
+    background-color:rgba(25, 98, 143, 0.803);
+    font-family: sans-serif;
+    font-size: 30px;
+}
+footer .blur h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20vh;
+}
+footer a:hover{
+    color:rgb(0, 22, 36);
+    border-bottom: 3px rgb(0, 22, 36) solid;
+}
